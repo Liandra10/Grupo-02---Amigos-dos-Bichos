@@ -1,1 +1,0 @@
-const numero: number = 40;
