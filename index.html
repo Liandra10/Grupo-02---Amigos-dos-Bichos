@@ -1,0 +1,58 @@
+<!--1. Substituir [SEU GRUPO] pelo nome do grupo de vocês.          SUBSTITUÍDO
+2. Escolher um emoji diferente para o título (em vez de � � ).    SUBSTITUÍDO.
+3. Mudar as cores no CSS (vamos fazer agora)                        FALTA FAZER
+4. Preencham com as informações do Pet Shop de vocês                FALTA FAZER
+5. Explique linha a linha dentro do código usando //                FALTA FAZER
+6. Testem abrindo no navegador                                      TESTES EM ANDAMENTO...
+-->
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0"> 
+    <title>PetShop Amigos dos Bichos</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body>
+    <!--Início da página --> 
+    <div class="container"> 
+        <!--Cabeçalho da página-->
+        <header> 
+            <h1>🐶 PetShop Amigos dos Bichos</h1> 
+            <p class="subtitle">Sistema desenvolvido pelo Grupo 2 Amigos dos Bichos.</p> 
+        </header> 
+        <!--Corpo da página-->
+       <div class="cards-info">
+
+            <div class="card"> 
+ 
+                <h3>Animais Cadastrados</h3> 
+              <span class="numero" id="total-animais">0</span>   
+            </div>
+
+            <div class="card"> 
+                <h3>Serviços Agendados</h3> 
+              <span class="numero" id="total-servicos">0</span> 
+            </div>
+
+        </div> 
+ 
+        <div class="area-resultados" id="resultado"> � � Bem-vindo ao sistema! Clique nos botões abaixo. </div> 
+        
+        <div class="botoes"> 
+            <button onclick="mostrarTipos()">1. Tipos Básicos</button> 
+            <button onclick="mostrarAnimais()">2. Exemplo Animais</button> 
+            <button onclick="testarFuncoes()">3. Testar Funções</button> 
+            <button onclick="mostrarErros()">4. Ver Erros</button> 
+            <button onclick="cadastrarAnimal()">5. Cadastrar Animal</button> 
+        </div> 
+
+        <footer> 
+            <p>Desenvolvido por Grupo 2 - Amigos dos Bichos</p>
+        </footer>
+
+    </div> 
+    <script src="script.js"></script> 
+</body> 
+</html> 
